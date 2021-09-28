@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/guitarpasal/static/css/main.6ce78cf2.chunk.css",
-    "main.js": "/guitarpasal/static/js/main.75f24586.chunk.js",
-    "main.js.map": "/guitarpasal/static/js/main.75f24586.chunk.js.map",
+    "main.js": "/guitarpasal/static/js/main.b3ffc891.chunk.js",
+    "main.js.map": "/guitarpasal/static/js/main.b3ffc891.chunk.js.map",
     "runtime-main.js": "/guitarpasal/static/js/runtime-main.084fcccd.js",
     "runtime-main.js.map": "/guitarpasal/static/js/runtime-main.084fcccd.js.map",
     "static/js/2.4735c1ab.chunk.js": "/guitarpasal/static/js/2.4735c1ab.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.084fcccd.js",
     "static/js/2.4735c1ab.chunk.js",
     "static/css/main.6ce78cf2.chunk.css",
-    "static/js/main.75f24586.chunk.js"
+    "static/js/main.b3ffc891.chunk.js"
   ]
 }
