@@ -1,0 +1,51 @@
+.contact {
+  position: relative;
+  min-height: 87h;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 2vw;
+  border: solid;
+  font-family: monospace;
+}
+.contact .content {
+  text-align: center;
+  background-color: black;
+}
+.contact .content h1 {
+  font-size: 2.5vw;
+  color: yellow;
+}
+.contact .content p {
+  font-size: 1vw;
+  color: rgb(241, 241, 241);
+}
+.contactInfo {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+.contact .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+}
+.contact .contactInfo .box .text h3 {
+  font-size: 1.5vw;
+}
+.contact .contactInfo .box .text p {
+  font-size: 1vw;
+}
+.contact .contactInfo .box .icon {
+  min-width: 60px;
+  height: 30px;
+  background-color: rgb(29, 190, 202);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: yellow;
+  font-size: 1vw;
+}

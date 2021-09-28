@@ -1,0 +1,96 @@
+.Nav{
+    width: 100vw;
+    height: 80px;
+    /* background-image: linear-gradient(to right top, #ffffff, #066fb4, #0086c0d7, #61c6df, #b8d5d8); */
+    background-color: rgb(73, 139, 151);
+    display: flex;
+    flex-direction: row;
+}
+.Nav-left{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+}
+.Nav #open span{
+    display: none;
+}
+.Nav #close span{
+    display: inherit;
+}
+.hiddenLinks a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Grey Qo', cursive;
+    margin: 0.7vh;
+    /* display: none; */
+}
+.Nav #open .hiddenLinks{
+    display: inherit;
+}
+.Nav #close .hiddenLinks{
+    display: none;
+}
+
+.Nav-right{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Nav-right a{
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Grey Qo', cursive;
+    transition: all 1500ms ease-in;
+}
+.Nav-right a:hover,
+.Nav-right a:focus{
+  box-shadow: inset 0px -20px 5px -15px rgb(176, 206, 10);
+  
+}   
+.Nav-right button{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .Nav-right a {
+      width: 70px;
+    }
+    .Nav-left {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .Nav-right a {
+      display: none;
+    }
+  
+    .Nav-right {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .Nav-right button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .Nav-right button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }

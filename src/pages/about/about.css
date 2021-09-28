@@ -1,0 +1,84 @@
+.about {
+  display: flex;
+  position: relative;
+  height: 87vh;
+  text-align: center;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1vw;
+  margin-right: 1.5vw;
+}
+.imgcontainer {
+  flex: 6;
+  width: 8vh;
+  margin-left: -5vw;
+}
+.imgcontainer img {
+  width: 90%;
+  display: flex;
+  position: relative;
+  left: 20vh;
+}
+.aboutcontent {
+  flex: 3;
+  margin-left: 4vw;
+  top: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.aboutcontent .imgbb {
+  position: relative;
+  top: -1.3vw;
+  height: 4vw;
+  width: 10w;
+  background-color: white;
+}
+.aboutcontent .imgbb .imgback img {
+  position: relative;
+  background-color: white;
+  top: 3vw;
+  height: 2vw;
+  width: 2w;
+}
+
+.aboutcontent h2,
+.aboutcontent p {
+  font-family: cursive;
+  width: 10vw;
+  position: relative;
+  background-color: white;
+  font-size: 1vw;
+}
+
+.aboutcontent2 {
+  flex: 3;
+  margin-left: 5vw;
+  top: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.aboutcontent2 .imgbb1 {
+  position: relative;
+  top: -0.5vw;
+  height: 4vw;
+  width: 10w;
+  background-color: white;
+}
+.aboutcontent2 .imgbb1 .imgback1 img {
+  position: relative;
+  background-color: white;
+  top: 3vw;
+  height: 2vw;
+  width: 2w;
+}
+.aboutcontent2 h2,
+.aboutcontent2 p {
+  font-family: cursive;
+  width: 20vw;
+  position: relative;
+  top: 20px;
+  background-color: white;
+  font-size: 1vw;
+}

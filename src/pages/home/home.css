@@ -1,0 +1,41 @@
+.home {
+  position: relative;
+  width: 100vw;
+  height: 87vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to right top,
+    #187ce9,
+    #0083d9,
+    #0085c0,
+    #0084a4,
+    #0a808b
+  );
+  overflow: hidden;
+}
+.home-banner img {
+  width: 70vw;
+  height: 100vh;
+}
+.home-text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 3vw;
+  top: 45px;
+  right: 40px;
+  font-family: "Abril Fatface", cursive;
+}
+.home-text h1 {
+  color: rgb(255, 255, 85);
+}
+.home-text button {
+  background-color: green;
+  border-radius: 5px;
+  width: 10vw;
+  height: 2.5vw;
+  border: none;
+  font-family: fantasy;
+  cursor: pointer;
+  font-size: 2vw;
+}
